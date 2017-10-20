@@ -8,7 +8,7 @@ public class Exercise1 {
 		return new Person(name,age);
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {  //args représente les arguments passés en lignes de commande
 		// Considérant que cette classe est démarrée en ligne de commande avec un premier paramètre donnant le nom
 		// et un second donnant l'âge (nombre entier), créez un objet Person sur base de ceux-ci.
 		// Ecrivez ensuite le nom et l'âge de cette personne sur la sortie standard.
