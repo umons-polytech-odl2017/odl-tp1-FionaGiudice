@@ -14,7 +14,7 @@ public class Exercise1 {
 		// Ecrivez ensuite le nom et l'âge de cette personne sur la sortie standard.
 		String name = args[0];
 		int age= Integer.parseInt(args[1]); //Pour transformer la chaîne de caractères en un entier
-		Person p= createPerson(name,age);    // Créer une personne en utilisant les paramètres entrés
-		System.out.print("Nom: " + p.getName() + ", Age: " + p.getAge());
+		Person p= createPerson(name,age);    // Créer une personne en utilisant les paramètres entrés OU Person person= new Person(name,age);
+		System.out.println("Nom: " + p.getName() + ", Age: " + p.getAge()); //OU ("Person: " + person.getName() + ", " + person.getAge())
 	}
 }
